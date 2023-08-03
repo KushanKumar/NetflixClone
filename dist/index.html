@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-Clone</title>
+    <link class="underline underline-offset-1 mt-1"nk rel="stylesheet" href="output.css">
+    <link rel="shortcut icon" href="assets/FaviconNetflix.png" type="image/x-icon">
+</head>
+
+<!-- 
+    changed pakage json ->   
+    "scripts": {
+        "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    } 
+-->
+
+<!-- npm run tailwind -->
+
+<body class="bg-[#242424] text-white font-popins">
+    <!-- ************ -->
+    <div class="mb-2 brightness-75"
+        style="background: url('assets/background-img.jpg') no-repeat; height:702px; width: 100%;">
+    </div>
+    <section class="absolute top-0">
+        <nav>
+            <div class="flex">
+                <img class="ml-28" style="max-width: 10%;" src="assets/Netflix-Logo-png.png" alt="" srcset="">
+                <div class="absolute top-4 right-9">
+                    <button
+                        class="bg-black text-white px-6 py-1 border-solid border-2 border-[#f4f4f4]  rounded-md mr-6">English</button>
+                    <button class="bg-[#E50914] text-white px-3 py-1  font-bold rounded-md">Sign In</button>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="flex flex-col items-center mt-[10rem]">
+            <h4 class="font-extrabold text-5xl">Unlimited movies, TV shows and more</h4>
+            <p class="text-2xl mt-4">Watch anywhere. Cancel anytime.</p>
+            <p class="text-2xl mt-4">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="flex my-4">
+                <input
+                    class="bg-[#272424ba] text-white placeholder:text-white p-3 mx-2 brightness-50 rounded-md border-2 w-80"
+                    placeholder="Email address" type="text" alt="klam">
+                <button class="bg-[#E50914] text-white h-14 w-48 font-bold rounded-md">Get Started ></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ************* -->
+
+    <div class="flex mb-3 bg-black justify-center items-center">
+        <div class="">
+            <h3 class="font-extrabold text-4xl">Enjoy on your TV</h3>
+            <p class="text-2xl mt-4">Watch on smart TVs, PlayStation, Xbox, <br>Chromecast, Apple TV, Blu-ray players
+                and
+                more.</p>
+        </div>
+
+        <div class="">
+            <img src="assets/tv.png" alt="">
+        </div>
+    </div>
+
+    <!-- ********* -->
+
+    <div class="flex mb-3 bg-black justify-center items-center">
+        <div class="">
+            <img src="assets/strangerThings.jpg" alt="">
+            <div
+                class="card flex relative bottom-[130px] left-[132px] bg-black p-4 rounded-xl mx-7 h-28 w-[50%] border-[rgba(128,128,128,0.7)] border-2">
+                <img src="assets/boxshot.png" alt="">
+                <p class="text-2xl mt-4 ml-3">Stranger Things</p>
+                <i class="fa-solid fa-arrow-down ml-3 mt-[30px]" style="color: #ffffff;"></i>
+            </div>
+        </div>
+        <div class="">
+            <h3 class="font-extrabold text-4xl">Download your shows to <br>watch offline</h3>
+            <p class="text-2xl mt-4">Save your favourites easily and always have <br>something to watch.</p>
+        </div>
+    </div>
+
+    <!-- ********* -->
+
+    <div class="flex mb-3 bg-black justify-center items-center">
+        <div class="">
+            <h3 class="font-extrabold text-4xl">Watch everywhere</h3>
+            <p class="text-2xl mt-4">Stream unlimited movies and TV shows on your <br> phone, tablet, laptop, and TV.
+            </p>
+        </div>
+        <div class="">
+            <img src="assets/device-pile-in.png" alt="">
+        </div>
+    </div>
+
+    <!-- ********* -->
+
+    <div class="flex mb-3 bg-black justify-center items-center">
+        <div class="">
+            <img src="assets/animated.png" alt="">
+        </div>
+        <div class="">
+            <h3 class="font-extrabold text-4xl">Create profiles for kids</h3>
+            <p class="text-2xl mt-4">Send children on adventures with their favourite <br> characters in a space made
+                just for them—free with <br> your membership.</p>
+        </div>
+    </div>
+
+    <!-- ***********FAQ************ -->
+
+    <section class="bg-black">        
+        <h3 class=" flex justify-center font-extrabold text-4xl pt-12 pb-2">Frequently Asked Questions</h3>
+        <div class="flex flex-col justify-center">
+            <span class="flex bg-[#2d2d2d] mx-auto px-4 py-6 mt-4 w-[80%]">
+                <p class="text-xl ml-3">What is Netflix?</p>
+                <i class="fa-solid fa-plus fa-xl absolute right-44 mt-[12px]" style="color: #ffffff;"></i>
+            </span>
+            <span class="flex bg-[#2d2d2d] mx-auto px-4 py-6 mt-4 w-[80%]">
+                <p class="text-xl ml-3">How much does Netflix cost?</p>
+                <i class="fa-solid fa-plus fa-xl absolute right-44 mt-[12px]" style="color: #ffffff;"></i>
+            </span>
+            <span class="flex bg-[#2d2d2d] mx-auto px-4 py-6 mt-4 w-[80%]">
+                <p class="text-xl ml-3">Where can I watch?</p>
+                <i class="fa-solid fa-plus fa-xl absolute right-44 mt-[12px]" style="color: #ffffff;"></i>
+            </span>
+            <span class="flex bg-[#2d2d2d] mx-auto px-4 py-6 mt-4 w-[80%]">
+                <p class="text-xl ml-3">How do I cancel?</p>
+                <i class="fa-solid fa-plus fa-xl absolute right-44 mt-[12px]" style="color: #ffffff;"></i>
+            </span>
+            <span class="flex bg-[#2d2d2d] mx-auto px-4 py-6 mt-4 w-[80%]">
+                <p class="text-xl ml-3">What can I watch on Netflix?</p>
+                <i class="fa-solid fa-plus fa-xl absolute right-44 mt-[12px]" style="color: #ffffff;"></i>
+            </span>
+            <span class="flex bg-[#2d2d2d] mx-auto px-4 py-6 mt-4 w-[80%]">
+                <p class="text-xl ml-3">Is Netflix good for kids?</p>
+                <i class="fa-solid fa-plus fa-xl absolute right-44 mt-[12px]" style="color: #ffffff;"></i>
+            </span>
+            <p class="text-2xl mt-8 flex justify-center">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="flex justify-center mt-4 mb-24">
+                <input
+                    class="bg-[#272424ba] text-white placeholder:text-white p-3 mx-2 brightness-50 rounded-md border-2 w-80 border-green-400"
+                    placeholder="Email address" type="text" alt="klam">
+                <button class="bg-[#E50914] text-white h-14 w-48 font-bold rounded-md ">Get Started ></button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black mt-3 pb-5" >
+        <div class=" mx-40 pt-6">
+        <p>Questions? Call <span class="underline underline-offset-1">000-800-919-1694</span></p>
+        <div class="flex justify-between">
+            <ul class="">
+                <li class="underline underline-offset-1 mt-1">FAQ</li>
+                <li class="underline underline-offset-1 mt-1">Media Centre</li>
+                <li class="underline underline-offset-1 mt-1">Ways to Watch</li>
+                <li class="underline underline-offset-1 mt-1">Cookie Preferences</li>
+                <li class="underline underline-offset-1 mt-1">Speed Test</li>
+                <li class="">
+                    <button
+                    class="bg-black text-white my-6 px-6 py-1 border-solid border-2 border-[#f4f4f4]  rounded-md mr-6">English</button>
+                </li>
+                <li class="">Netflix India</li>
+            </ul>
+            <ul class="">
+                <li class="underline underline-offset-1 mt-1">Help Centre</li>
+                <li class="underline underline-offset-1 mt-1">Investor Relations</li>
+                <li class="underline underline-offset-1 mt-1">Terms of Use</li>
+                <li class="underline underline-offset-1 mt-1">Corporate Information</li>
+                <li class="underline underline-offset-1 mt-1">Legal Notices</li>
+            </ul>
+            <ul class="">
+                <li class="underline underline-offset-1 mt-1">Account</li>
+                <li class="underline underline-offset-1 mt-1">Jobs</li>
+                <li class="underline underline-offset-1 mt-1">Privacy</li>
+                <li class="underline underline-offset-1 mt-1">Contact Us</li>
+                <li class="underline underline-offset-1 mt-1">Only on Netflix</li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+
+
+
+
+    <!-- ********************script************ -->
+
+    <script src="https://kit.fontawesome.com/d6e8b920f5.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
